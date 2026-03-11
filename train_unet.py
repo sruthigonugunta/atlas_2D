@@ -200,10 +200,10 @@ def run_epoch(model, loader, optimizer, criterion, device, train=True):
 def main():
     print("Start training")
 
-    train_img_dir = "data/dataset_2D/train/images"
-    train_mask_dir = "data/dataset_2D/train/masks"
-    val_img_dir = "data/dataset_2D/val/images"
-    val_mask_dir = "data/dataset_2D/val/masks"
+    train_img_dir = "data/dataset_2D_jsonsplit/train/images"
+    train_mask_dir = "data/dataset_2D_jsonsplit/train/masks"
+    val_img_dir = "data/dataset_2D_jsonsplit/val/images"
+    val_mask_dir = "data/dataset_2D_jsonsplit/val/masks"
 
     print("Train images:", len(os.listdir(train_img_dir)))
     print("Train masks :", len(os.listdir(train_mask_dir)))
