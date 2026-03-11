@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data & outputs (local only)
+data/
+eval/
+prediction_bids/
+prediciton_bids/
+ATLAS_2_raw_data/
+runs/
+checkpoints/
+predictions/
+neuro/
+# Run artifacts
+runs/*/run_*/raw/
+runs/*/run_*/raw_preds/
+runs/*/run_*/preds_bids/
+runs/*/run_*/eval_out/
+runs/*/run_*/checkpoints/
+
+# Large medical images
+*.nii
+*.nii.gz
+
+# Logs
+*.log

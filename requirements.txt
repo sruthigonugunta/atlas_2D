@@ -1,0 +1,10 @@
+numpy
+bids
+matplotlib
+jupyter
+nibabel
+wget
+tqdm
+torch
+monai
+git+https://github.com/npnl/bidsio
