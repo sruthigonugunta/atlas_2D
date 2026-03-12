@@ -199,7 +199,7 @@ def main():
     print("Val masks   :", len(os.listdir(val_mask_dir)))
 
     # TorchIO augmentation for training only
-    aug = get_torchio_augmentation(preset="light")
+    aug = get_torchio_augmentation(preset="compare")
 
     train_ds = MRI2D(
         train_img_dir,
